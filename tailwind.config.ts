@@ -64,9 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pastel: {
-					yellow: '#FEF7CD',
-					'yellow-dark': '#F7E8A4',
-					peach: '#FDE1D3',
+					pink: '#FFDEE2',
+					'pink-dark': '#FFD0D6',
+					beige: '#F5EFE6',
+					'beige-dark': '#E8DDCB',
 					gray: '#F1F0FB',
 				}
 			},
@@ -101,12 +102,21 @@ export default {
 						opacity: '1',
 						transform: 'translateY(0)'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-20px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out'
+				'fade-in': 'fade-in 0.6s ease-out',
+				'float': 'float 6s ease-in-out infinite'
 			}
 		}
 	},

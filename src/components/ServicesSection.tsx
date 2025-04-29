@@ -17,13 +17,13 @@ const ServicesSection = () => {
     },
     {
       title: "Fortalecimento de Vínculo",
-      description: "Orientações para estabelecer uma conexão saudável entre mãe e bebê, promovendo segurança emocional e desenvolvimento infantil adequado.",
+      description: "Orientações para estabelecer uma conexão saudável entre pais e filhos, promovendo segurança emocional e desenvolvimento infantil adequado.",
       badge: "Relacional"
     },
     {
-      title: "Psicoterapia Maternal",
-      description: "Atendimento terapêutico focado nas demandas específicas da maternidade, como culpa materna, burnout e retorno ao trabalho.",
-      badge: "Continuado"
+      title: "Parentalidade Positiva",
+      description: "Atendimento terapêutico para desenvolver habilidades parentais baseadas em respeito, empatia e comunicação não-violenta.",
+      badge: "Educacional"
     },
     {
       title: "Terapia para Casais",
@@ -31,29 +31,29 @@ const ServicesSection = () => {
       badge: "Familiar"
     },
     {
-      title: "Orientação Parental",
-      description: "Desenvolvimento de estratégias para lidar com desafios da criação dos filhos, estabelecendo limites saudáveis e comunicação efetiva.",
-      badge: "Educacional"
+      title: "Maternidade Real",
+      description: "Espaço seguro para expressão dos desafios maternos sem julgamentos, desconstruindo padrões e aliviando a culpa materna.",
+      badge: "Acolhimento"
     }
   ];
 
   return (
-    <section id="servicos" className="bg-pastel-gray/30 py-16 md:py-24">
+    <section id="servicos" className="bg-pastel-beige/30 py-16 md:py-24">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Serviços</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Acompanhamento psicológico especializado para cada etapa da sua jornada materna, com foco em seu bem-estar e desenvolvimento pessoal.
+            Acompanhamento psicológico especializado para cada etapa da sua jornada parental, com foco no bem-estar emocional de toda a família.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="bg-white border-pastel-yellow/40 shadow-md hover:shadow-lg transition-shadow duration-300 h-full">
+            <Card key={index} className="bg-white border-pastel-pink/40 shadow-md hover:shadow-lg transition-shadow duration-300 h-full">
               <CardHeader className="pb-4">
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-xl font-bold text-gray-800">{service.title}</CardTitle>
-                  <Badge variant="outline" className="bg-pastel-yellow/30 text-primary-foreground border-pastel-yellow">
+                  <Badge variant="outline" className="bg-pastel-pink/30 text-primary-foreground border-pastel-pink">
                     {service.badge}
                   </Badge>
                 </div>
@@ -73,7 +73,7 @@ const ServicesSection = () => {
           </p>
           <a 
             href="#contato" 
-            className="inline-block bg-primary hover:bg-pastel-yellow-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
+            className="inline-block bg-primary hover:bg-pastel-pink-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
           >
             Agende uma Consulta
           </a>

@@ -5,6 +5,8 @@ import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import BlogSection from '@/components/BlogSection';
+import InteractiveModel from '@/components/InteractiveModel';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -16,6 +18,12 @@ const Index = () => {
       <AboutSection />
       <ServicesSection />
       <TestimonialsSection />
+      <BlogSection />
+      <div className="bg-white py-16">
+        <div className="section-container">
+          <InteractiveModel />
+        </div>
+      </div>
       <ContactSection />
       <Footer />
     </div>
