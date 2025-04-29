@@ -9,6 +9,7 @@ import BlogSection from '@/components/BlogSection';
 import InteractiveModel from '@/components/InteractiveModel';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import DailyPhrase from '@/components/DailyPhrase';
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <DailyPhrase />
       <ServicesSection />
       <TestimonialsSection />
       <BlogSection />

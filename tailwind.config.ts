@@ -64,10 +64,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pastel: {
-					pink: '#FFDEE2',
-					'pink-dark': '#FFD0D6',
 					beige: '#F5EFE6',
 					'beige-dark': '#E8DDCB',
+					'beige-light': '#FAF8F4',
 					gray: '#F1F0FB',
 				}
 			},
