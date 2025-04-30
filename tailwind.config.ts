@@ -67,7 +67,10 @@ export default {
 					beige: '#F5EFE6',
 					'beige-dark': '#E8DDCB',
 					'beige-light': '#FAF8F4',
-					gray: '#F1F0FB',
+					'peach': '#FFDEC8',
+					'peach-dark': '#FFCBA5',
+					'pink': '#FFE6E8',
+					'pink-light': '#FFF0F1',
 				}
 			},
 			borderRadius: {

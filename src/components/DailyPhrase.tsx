@@ -41,18 +41,16 @@ const quotes: DailyQuote[] = [
 const DailyPhrase = () => {
   // Get a random quote that changes daily based on the date
   const today = new Date();
-  const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+  const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000);
   const randomQuoteIndex = dayOfYear % quotes.length;
   const dailyQuote = quotes[randomQuoteIndex];
   
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <section className="bg-gradient-to-r from-pastel-beige-light to-pastel-beige">
+    <section className="bg-gradient-to-r from-[#F5EFE6] to-[#FAF8F4]">
       <div className="section-container">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center mb-4">
-            <Book className="mr-2 text-pastel-beige-dark" />
+            <Book className="mr-2 text-[#E8DDCB]" />
             <h2 className="text-3xl font-semibold text-gray-800">Frase Inspiradora do Dia</h2>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -63,9 +61,9 @@ const DailyPhrase = () => {
         <div className="max-w-3xl mx-auto">
           <HoverCard>
             <HoverCardTrigger asChild>
-              <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 bg-white border border-pastel-beige-dark/30">
+              <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 bg-white border border-[#E8DDCB]/30">
                 <CardContent className="p-8 text-center relative">
-                  <Quote className="text-primary absolute top-4 left-4 opacity-40 w-8 h-8" />
+                  <Quote className="text-[#E8DDCB] absolute top-4 left-4 opacity-40 w-8 h-8" />
                   <p className="text-xl md:text-2xl font-medium text-gray-700 italic mt-6">
                     "{dailyQuote.text}"
                   </p>
@@ -78,7 +76,7 @@ const DailyPhrase = () => {
                 </CardContent>
               </Card>
             </HoverCardTrigger>
-            <HoverCardContent className="w-80 md:w-96 p-6 bg-white border border-pastel-beige-dark/30 shadow-lg">
+            <HoverCardContent className="w-80 md:w-96 p-6 bg-white border border-[#E8DDCB]/30 shadow-lg">
               <h4 className="font-semibold text-gray-800 mb-2">Inspiração para hoje:</h4>
               <p className="text-gray-700">{dailyQuote.inspiration}</p>
             </HoverCardContent>

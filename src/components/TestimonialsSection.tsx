@@ -56,7 +56,7 @@ const TestimonialsSection = () => {
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2 pl-4">
                   <Card className="bg-pastel-beige/5 border-0 shadow hover:shadow-md transition-shadow duration-300 h-full">
                     <CardContent className="p-8 relative">
-                      <Quote className="h-10 w-10 text-primary opacity-20 absolute top-4 left-4" />
+                      <Quote className="h-10 w-10 text-pastel-beige-dark opacity-20 absolute top-4 left-4" />
                       <div className="pt-6">
                         <p className="text-gray-700 italic mb-8">"{testimonial.quote}"</p>
                         <div className="mt-auto">
@@ -70,13 +70,13 @@ const TestimonialsSection = () => {
               ))}
             </CarouselContent>
             <div className="flex justify-center mt-8">
-              <CarouselPrevious className="relative inset-0 translate-y-0 mr-2" />
-              <CarouselNext className="relative inset-0 translate-y-0 ml-2" />
+              <CarouselPrevious className="relative inset-0 translate-y-0 mr-2 border-pastel-beige-dark text-pastel-beige-dark hover:bg-pastel-beige hover:text-primary-foreground" />
+              <CarouselNext className="relative inset-0 translate-y-0 ml-2 border-pastel-beige-dark text-pastel-beige-dark hover:bg-pastel-beige hover:text-primary-foreground" />
             </div>
           </Carousel>
         </div>
 
-        <div className="mt-16 max-w-2xl mx-auto bg-pastel-pink/20 p-8 rounded-2xl border border-pastel-pink">
+        <div className="mt-16 max-w-2xl mx-auto bg-pastel-beige/30 p-8 rounded-2xl border border-pastel-beige-dark/40">
           <h3 className="text-xl md:text-2xl font-bold mb-4 text-center text-gray-800">Comece sua jornada de transformação hoje</h3>
           <p className="text-center text-gray-700 mb-6">
             Cada história é única, e sua experiência parental merece ser vivida com serenidade e confiança.
@@ -84,7 +84,7 @@ const TestimonialsSection = () => {
           <div className="flex justify-center">
             <a 
               href="http://api.whatsapp.com/send?phone=5551996381477" 
-              className="inline-block bg-primary hover:bg-pastel-pink-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
+              className="inline-block bg-pastel-peach hover:bg-pastel-peach-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
             >
               Agende sua Primeira Sessão
             </a>
