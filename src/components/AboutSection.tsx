@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Sobre Gris</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Psicóloga especializada em maternidade real e parentalidade, com a missão de tornar essa jornada mais autêntica, tranquila e empoderada.
+            Psicóloga especializada em maternidade real e parentalidade, com a missão de tornar essa jornada mais autêntica, tranquila e acolhedora.
           </p>
         </div>
 
@@ -27,12 +27,12 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-pastel-terracotta">Transformando a experiência parental</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-6 text-pastel-terracotta">Maternidade com acolhimento e diálogo</h3>
             <p className="text-gray-600 mb-8">
-              Olá! Sou Gris, psicóloga com formação especializada no acolhimento de mães, pais e famílias durante a jornada da parentalidade. Acredito que este momento único merece um olhar sensível e técnico, que respeite as individualidades e ofereça suporte genuíno.
+              Se chegaste até aqui, é porque provavelmente estás vivendo a maternidade com todas as suas camadas: o amor imenso, o cansaço, as dúvidas e aquela vontade constante de fazer melhor. E sim, existe um espaço para tudo isso. Este é um cantinho feito para ti — mãe que sente, que questiona, que busca crescer e criar com mais presença.
             </p>
             <p className="text-gray-600 mb-8">
-              Meu trabalho é pautado na escuta empática e no desenvolvimento de estratégias personalizadas para ajudar famílias a lidarem com os desafios deste período, promovendo autoconfiança, conexão e bem-estar emocional para todos.
+              A minha missão é caminhar contigo nesse processo. Através da Terapia Cognitivo-Comportamental (TCC), trago um olhar prático e afetivo para ajudar-te a lidar com os desafios do dia a dia.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
