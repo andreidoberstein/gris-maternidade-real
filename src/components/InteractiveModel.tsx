@@ -151,7 +151,7 @@ const InteractiveModel = () => {
   }, []);
   
   return (
-    <div className="mt-12">
+    <div className="">
       <div className="text-center mb-8">
         <h3 className="text-2xl font-bold text-gray-800">Interaja com o Coração Materno</h3>
         <p className="text-gray-600">Mova o cursor sobre o coração para interagir</p>

@@ -19,7 +19,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contato" className="bg-pastel-yellow/10 py-16 md:py-24">
+    <section id="contato" className="bg-pastel-yellow/10">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Entre em Contato</h2>

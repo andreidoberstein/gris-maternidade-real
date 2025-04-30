@@ -38,10 +38,10 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="servicos" className="bg-pastel-beige/30 py-16 md:py-24">
+    <section id="servicos" className="bg-pastel-beige/30">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Serviços</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Suportes</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Acompanhamento psicológico especializado para cada etapa da sua jornada parental, com foco no bem-estar emocional de toda a família.
           </p>
@@ -69,11 +69,12 @@ const ServicesSection = () => {
 
         <div className="mt-16 text-center">
           <p className="text-gray-700 mb-6">
-            Todos os serviços podem ser realizados online ou presencialmente, conforme sua preferência e necessidade.
+            Todos os suportes podem ser realizados online ou presencialmente, conforme sua preferência e necessidade.
           </p>
           <a 
-            href="#contato" 
+            href="http://api.whatsapp.com/send?phone=5551996381477" 
             className="inline-block bg-primary hover:bg-pastel-pink-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
+            target='_blank'
           >
             Agende uma Consulta
           </a>

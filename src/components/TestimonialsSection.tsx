@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section id="depoimentos" className="bg-white py-16 md:py-24">
+    <section id="depoimentos" className="bg-white">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Depoimentos</h2>
@@ -83,7 +83,7 @@ const TestimonialsSection = () => {
           </p>
           <div className="flex justify-center">
             <a 
-              href="#contato" 
+              href="http://api.whatsapp.com/send?phone=5551996381477" 
               className="inline-block bg-primary hover:bg-pastel-pink-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
             >
               Agende sua Primeira Sessão

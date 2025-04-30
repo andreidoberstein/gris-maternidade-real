@@ -18,7 +18,8 @@ const BlogSection = () => {
       title: "Parentalidade Positiva: Criando Filhos Emocionalmente Saudáveis",
       excerpt: "Estratégias práticas para uma educação baseada em respeito, empatia e comunicação não-violenta.",
       date: "21 Abril 2025",
-      image: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e41",
+      // image: "https://images.unsplash.com/photo-1536640712-4d4c36ff0e41",
+      image: "https://plus.unsplash.com/premium_photo-1664301720338-959704df1f29?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       category: "Parentalidade",
       readTime: "8 min"
     },
@@ -33,7 +34,7 @@ const BlogSection = () => {
   ];
 
   return (
-    <section id="blog" className="bg-pastel-beige/20 py-16 md:py-24">
+    <section id="blog" className="bg-pastel-beige/20">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Blog</h2>

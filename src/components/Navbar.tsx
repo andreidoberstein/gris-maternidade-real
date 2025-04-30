@@ -11,8 +11,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <a href="#" className="text-2xl font-medium text-gray-900">
-              <span className="text-primary">Gris</span> Maternidade
+            <a href="#" className="text-2xl font-medium text-primary-foreground text-gray-900">
+              <span className="text-primary-foreground font-bold">Gris</span><span className="font-semibold text-primary-foreground"> Rolim</span>
+              <p className='font-thin text-base text-primary-foreground'>Psicóloga Clínica</p>
             </a>
           </div>
           
@@ -20,7 +21,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-center space-x-8">
               <a href="#inicio" className="text-gray-700 hover:text-primary transition-colors duration-300">Início</a>
               <a href="#sobre" className="text-gray-700 hover:text-primary transition-colors duration-300">Sobre</a>
-              <a href="#servicos" className="text-gray-700 hover:text-primary transition-colors duration-300">Serviços</a>
+              <a href="#servicos" className="text-gray-700 hover:text-primary transition-colors duration-300">Suportes</a>
               <a href="#depoimentos" className="text-gray-700 hover:text-primary transition-colors duration-300">Depoimentos</a>
               <a href="#blog" className="text-gray-700 hover:text-primary transition-colors duration-300">Blog</a>
               <a href="#contato" className="inline-block bg-primary hover:bg-pastel-pink-dark text-primary-foreground font-medium rounded-full px-6 py-2 transition-colors duration-300">
@@ -57,7 +58,7 @@ const Navbar = () => {
               Sobre
             </a>
             <a href="#servicos" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-primary hover:bg-pastel-pink/20 rounded-md" onClick={() => setIsOpen(false)}>
-              Serviços
+              Suportes
             </a>
             <a href="#depoimentos" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-primary hover:bg-pastel-pink/20 rounded-md" onClick={() => setIsOpen(false)}>
               Depoimentos

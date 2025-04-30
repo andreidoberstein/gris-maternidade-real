@@ -2,10 +2,11 @@
 import React from 'react';
 import { User, MessageSquareHeart, Smile } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
+import Consulta from '../assets/consulting.jpg'
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="bg-white py-16 md:py-24">
+    <section id="sobre" className="bg-white">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Sobre Gris</h2>
@@ -14,18 +15,14 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-top">
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" 
+                src={ Consulta } 
                 alt="Psicóloga Gris" 
-                className="w-full h-auto object-cover"
+                className="w-full md:h-[32.2rem] object-cover opacity-80"
               />
-            </div>
-            <div className="absolute -bottom-6 -right-6 bg-pastel-pink p-5 rounded-full shadow-lg">
-              <span className="text-2xl font-bold text-primary-foreground">+10</span>
-              <span className="block text-sm text-primary-foreground">Anos de<br/>Experiência</span>
             </div>
           </div>
 

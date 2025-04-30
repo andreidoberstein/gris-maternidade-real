@@ -21,12 +21,12 @@ const Index = () => {
       <ServicesSection />
       <TestimonialsSection />
       <BlogSection />
-      <div className="bg-white py-16">
+      <div className="bg-white">
         <div className="section-container">
           <InteractiveModel />
         </div>
       </div>
-      <ContactSection />
+      {/* <ContactSection /> */}
       <Footer />
     </div>
   );

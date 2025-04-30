@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">Gris Maternidade Serena</h3>
+            <h3 className="text-xl font-bold mb-4 text-gray-800">Gris Maternidade Real</h3>
             <p className="text-gray-600 mb-4 max-w-md">
               Acolhimento psicológico especializado para mães e mulheres em todas as etapas da jornada maternal, com foco em bem-estar e tranquilidade.
             </p>
@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#inicio" className="text-gray-600 hover:text-primary transition-colors duration-300">Início</a></li>
               <li><a href="#sobre" className="text-gray-600 hover:text-primary transition-colors duration-300">Sobre</a></li>
-              <li><a href="#servicos" className="text-gray-600 hover:text-primary transition-colors duration-300">Serviços</a></li>
+              <li><a href="#servicos" className="text-gray-600 hover:text-primary transition-colors duration-300">Suportes</a></li>
               <li><a href="#depoimentos" className="text-gray-600 hover:text-primary transition-colors duration-300">Depoimentos</a></li>
               <li><a href="#contato" className="text-gray-600 hover:text-primary transition-colors duration-300">Contato</a></li>
             </ul>
@@ -37,15 +37,15 @@ const Footer = () => {
             
             <div className="mt-6">
               <h4 className="text-lg font-medium mb-2 text-gray-800">Contato</h4>
-              <p className="text-gray-600">(11) 99999-9999</p>
-              <p className="text-gray-600">contato@grismaternidade.com.br</p>
+              <p className="text-gray-600">(51) 99638-1477</p>
+              <p className="text-gray-600">contato@psicogris.com.br</p>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} Gris Maternidade Serena. Todos os direitos reservados.
+            &copy; {currentYear} Gris Maternidade Real. Todos os direitos reservados.
           </p>
           
           <div className="flex space-x-6">

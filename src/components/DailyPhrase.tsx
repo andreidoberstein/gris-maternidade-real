@@ -48,7 +48,7 @@ const DailyPhrase = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="bg-gradient-to-r from-pastel-beige-light to-pastel-beige py-12 md:py-16">
+    <section className="bg-gradient-to-r from-pastel-beige-light to-pastel-beige">
       <div className="section-container">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center mb-4">
