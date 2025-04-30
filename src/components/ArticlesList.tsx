@@ -56,11 +56,11 @@ const ArticlesList = () => {
   ];
 
   return (
-    <section className="py-12 md:py-16 bg-pastel-beige/10">
+    <section className="py-12 md:py-16 bg-pastel-cream/30">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.map((article, index) => (
-            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border border-pastel-peach/20">
               <div className="h-48 overflow-hidden">
                 <img 
                   src={article.image} 
@@ -70,7 +70,7 @@ const ArticlesList = () => {
               </div>
               <CardHeader className="pb-2">
                 <div className="flex justify-between items-center mb-2">
-                  <Badge className="bg-pastel-pink/70 text-primary-foreground hover:bg-pastel-pink">
+                  <Badge className="bg-pastel-rose-light text-pastel-rose-dark hover:bg-pastel-rose/70">
                     {article.category}
                   </Badge>
                   <span className="text-sm text-gray-500">{article.readTime}</span>
@@ -86,7 +86,7 @@ const ArticlesList = () => {
               </CardContent>
               <CardFooter className="flex justify-between items-center pt-0">
                 <span className="text-sm text-gray-500">{article.date}</span>
-                <a href="#" className="text-primary font-medium hover:underline">
+                <a href="#" className="text-pastel-terracotta font-medium hover:underline">
                   Ler mais
                 </a>
               </CardFooter>

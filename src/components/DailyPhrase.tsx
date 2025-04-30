@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { HoverCard, HoverCardTrigger, HoverCardContent } from '@/components/ui/hover-card';
 import { Book, Quote } from 'lucide-react';
@@ -46,11 +46,11 @@ const DailyPhrase = () => {
   const dailyQuote = quotes[randomQuoteIndex];
   
   return (
-    <section className="bg-gradient-to-r from-[#F5EFE6] to-[#FAF8F4]">
+    <section className="bg-gradient-to-r from-pastel-peach-light/30 to-pastel-cream">
       <div className="section-container">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center mb-4">
-            <Book className="mr-2 text-[#E8DDCB]" />
+            <Book className="mr-2 text-pastel-rose" />
             <h2 className="text-3xl font-semibold text-gray-800">Frase Inspiradora do Dia</h2>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -61,13 +61,13 @@ const DailyPhrase = () => {
         <div className="max-w-3xl mx-auto">
           <HoverCard>
             <HoverCardTrigger asChild>
-              <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 bg-white border border-[#E8DDCB]/30">
+              <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 bg-white border border-pastel-peach/30">
                 <CardContent className="p-8 text-center relative">
-                  <Quote className="text-[#E8DDCB] absolute top-4 left-4 opacity-40 w-8 h-8" />
+                  <Quote className="text-pastel-rose opacity-40 absolute top-4 left-4 w-8 h-8" />
                   <p className="text-xl md:text-2xl font-medium text-gray-700 italic mt-6">
                     "{dailyQuote.text}"
                   </p>
-                  <p className="mt-4 text-gray-500 font-medium">
+                  <p className="mt-4 text-pastel-terracotta font-medium">
                     {dailyQuote.reference}
                   </p>
                   <div className="mt-4 opacity-70 text-sm">
@@ -76,8 +76,8 @@ const DailyPhrase = () => {
                 </CardContent>
               </Card>
             </HoverCardTrigger>
-            <HoverCardContent className="w-80 md:w-96 p-6 bg-white border border-[#E8DDCB]/30 shadow-lg">
-              <h4 className="font-semibold text-gray-800 mb-2">Inspiração para hoje:</h4>
+            <HoverCardContent className="w-80 md:w-96 p-6 bg-white border border-pastel-peach/30 shadow-lg">
+              <h4 className="font-semibold text-pastel-terracotta mb-2">Inspiração para hoje:</h4>
               <p className="text-gray-700">{dailyQuote.inspiration}</p>
             </HoverCardContent>
           </HoverCard>

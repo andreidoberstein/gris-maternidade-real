@@ -38,7 +38,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="servicos" className="bg-gradient-to-r from-pastel-beige-light to-pastel-beige/30">
+    <section id="servicos" className="bg-gradient-to-r from-pastel-beige-light to-white">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Suportes</h2>
@@ -49,11 +49,11 @@ const ServicesSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="bg-white border-pastel-beige-dark/40 shadow-md hover:shadow-lg transition-shadow duration-300 h-full">
+            <Card key={index} className="bg-white border-pastel-peach/20 shadow-sm hover:shadow-md transition-shadow duration-300 h-full">
               <CardHeader className="pb-4">
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-xl font-bold text-gray-800">{service.title}</CardTitle>
-                  <Badge variant="outline" className="bg-pastel-peach/30 text-primary-foreground border-pastel-peach">
+                  <Badge variant="outline" className="bg-pastel-rose-light/50 text-pastel-rose-dark border-pastel-rose-light">
                     {service.badge}
                   </Badge>
                 </div>
@@ -73,7 +73,7 @@ const ServicesSection = () => {
           </p>
           <a 
             href="http://api.whatsapp.com/send?phone=5551996381477" 
-            className="inline-block bg-pastel-peach hover:bg-pastel-peach-dark text-primary-foreground font-medium rounded-full px-8 py-3 transition-colors duration-300"
+            className="inline-block bg-pastel-rose hover:bg-pastel-rose-dark text-white font-medium rounded-full px-8 py-3 transition-colors duration-300"
             target='_blank'
           >
             Agende uma Consulta

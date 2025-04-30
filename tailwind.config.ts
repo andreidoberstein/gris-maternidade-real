@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,10 +66,15 @@ export default {
 					beige: '#F5EFE6',
 					'beige-dark': '#E8DDCB',
 					'beige-light': '#FAF8F4',
-					'peach': '#FFDEC8',
-					'peach-dark': '#FFCBA5',
-					'pink': '#FFE6E8',
-					'pink-light': '#FFF0F1',
+					'peach': '#FFDAC1',
+					'peach-dark': '#FFBEA3',
+					'peach-light': '#FFEADC',
+					'rose': '#E8C2CA',
+					'rose-dark': '#D4A7B0',
+					'rose-light': '#F6DEE3',
+					'terracotta': '#D8A48F',
+					'terracotta-light': '#E6BFB0',
+					'cream': '#FFF9F0'
 				}
 			},
 			borderRadius: {
